@@ -1,0 +1,11 @@
+{
+  "username": "test_shery4",
+  "email" : "test_shery6@mailinator.com",
+  "password": "Shery@1234",
+  "shortlengthpassword": "sher1",
+  "incorrectpassword" : "Shery23445",
+  "usernameincorrect" : "shewer",
+  "invalidemail" : "testabc@gmail.com",
+  "codes" : "123456",
+  "newpassword" : "Shery123"
+}
