@@ -22,7 +22,7 @@ describe('Forgot Password Page Test Cases', () => {
             // forgotPassword.enterNewPasswordFunc(data.newpassword)
         })
     })
-    it.only('Verify Sign in Instead link is working', () => {
+    it('Verify Sign in Instead link is working', () => {
 
         cy.fixture('loginData.json').then((data)=>{
             forgotPassword.forgetPasswordFunc()

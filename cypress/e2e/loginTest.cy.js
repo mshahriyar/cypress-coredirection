@@ -56,7 +56,7 @@ describe('Login Page Test Cases', () => {
       login.eyeIcon()
       
   })
-  it.only('Verify the Create New Account button is present and functional', () => {
+  it('Verify the Create New Account button is present and functional', () => {
     
     login.createNewAccount()
     
