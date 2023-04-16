@@ -8,8 +8,9 @@ module.exports = defineConfig({
     pageLoadTimeout: 30000,
     defaultCommandTimeout: 3000,
     chromeWebSecurity: false,
+
     setupNodeEvents(on, config) {
-      
+
       // implement node event listeners here
     },
     
