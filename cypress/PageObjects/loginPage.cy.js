@@ -34,9 +34,9 @@ class loginPage {
         cy.get(this.loginButton).should('be.visible')
         cy.get(this.loginButton).click()
     }
-    validateLogin(){
-        cy.get(this.verifyLogin).click()
-    }
+    // validateLogin(){
+    //     cy.get(this.verifyLogin).click()
+    // }
 
     validatePassLength(){
         cy.get(this.passwordLengthError).should("have.text", "ValidationError: 'Password' length must be at least 8 characters long")

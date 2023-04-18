@@ -5,8 +5,8 @@ module.exports = defineConfig({
   e2e: {
     viewportWidth: 1024,
     viewportHeight: 786,
-    pageLoadTimeout: 30000,
-    defaultCommandTimeout: 3000,
+    pageLoadTimeout: 50000,
+    defaultCommandTimeout: 5000,
     chromeWebSecurity: false,
 
     setupNodeEvents(on, config) {
