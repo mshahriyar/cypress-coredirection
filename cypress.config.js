@@ -11,8 +11,9 @@ module.exports = defineConfig({
     pageLoadTimeout: 50000,
     defaultCommandTimeout: 5000,
     chromeWebSecurity: false,
-
+    reporter: 'cypress-mochawesome-reporter',
     setupNodeEvents(on, config) {
+      require('cypress-mochawesome-reporter/plugin')(on);
       //on('file:preprocessor', cucumber())
       // implement node event listeners here
     },
