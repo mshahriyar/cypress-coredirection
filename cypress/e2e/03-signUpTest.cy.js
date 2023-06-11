@@ -49,7 +49,7 @@ describe('SignUp Page Test Cases', () => {
   
   })
 
-  it.only('Verify the user sign up with valid email', () => {
+  it('Verify the user sign up with valid email', () => {
     
 
     signup.randomEmailFunc()

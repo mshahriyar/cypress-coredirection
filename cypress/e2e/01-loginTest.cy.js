@@ -25,7 +25,7 @@ describe('Login Page Test Cases', () => {
         login.validateUIFields()
     })
 
-    it.only('Login with valid credentials', () => {
+    it('Login with valid credentials', () => {
 
         login.setUserName(data.username)
         login.setPassword(data.password)
