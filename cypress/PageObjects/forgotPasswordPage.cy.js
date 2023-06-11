@@ -43,14 +43,6 @@ class forgotPasswordPage {
     // // enterNewPasswordFunc(newpassword){
     //     cy.contains(this.newPasswordField).type(newpassword, {force: true})
     // }
-
-
-
-    
-
-
-
-
     
 }
 export default forgotPasswordPage

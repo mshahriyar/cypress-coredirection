@@ -23,3 +23,22 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('login', (username, password)=>{
+
+    cy.session('login', ()=>{
+        cy.visit('/')
+        cy.get('.py-2').click()
+        cy.get('#signInEmail').clear().type(username)
+        cy.get('#signInPassword').clear().type(password) 
+        cy.get(':nth-child(3) > .btn-submit').click()
+        cy.wait(3000)
+        cy.get('.btn-warable-action').click()
+    })
+
+    //When you want to use your session across all specs then use this below statment
+    // {
+    //     cachAcrossSpecs: true
+    // }
+    
+})
