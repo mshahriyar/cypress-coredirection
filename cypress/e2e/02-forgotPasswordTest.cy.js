@@ -30,9 +30,7 @@ describe('Forgot Password Page Test Cases', () => {
             forgotPassword.emailSuccessToastFunc()
             forgotPassword.verifySignInLinkFunc()
             forgotPassword.verifySignInPopUpFunc()
-            // forgotPassword.enterCodeFunc(data.codes)
-            // forgotPassword.enterNewPasswordFunc(data.newpassword)
-        })
+          })
     })
     it('forgot password with Invalid email', () => {
 
