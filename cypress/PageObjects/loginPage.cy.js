@@ -12,6 +12,8 @@ class loginPage {
     showPassword = ".mr-8"
     profileIcon = ".user-profile-image"
     closeDownloadPopUpButton = ".btn-warable-action"
+
+    singInButton =  "[data-test=signInButton]"
     
     visit(){
         cy.visit('/')
