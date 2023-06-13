@@ -9,7 +9,7 @@ describe('Forgot Password Page Test Cases', () => {
         cy.visit('https://stage-v3-1-0-1.coredirection.com/')
         login.signIn()
     });
-    it.skip('forgot password with valid email', () => {        
+    it('forgot password with valid email', () => {        
 
         cy.fixture('loginData.json').then((data)=>{
             forgotPassword.forgetPasswordFunc()
@@ -21,7 +21,7 @@ describe('Forgot Password Page Test Cases', () => {
             // forgotPassword.enterNewPasswordFunc(data.newpassword)
         })
     })
-    it.skip('Verify Sign in Instead link is working', () => {
+    it('Verify Sign in Instead link is working', () => {
         
         cy.fixture('loginData.json').then((data)=>{
             forgotPassword.forgetPasswordFunc()
