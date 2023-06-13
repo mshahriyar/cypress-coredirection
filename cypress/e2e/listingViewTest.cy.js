@@ -44,7 +44,7 @@ describe('Listing Page', () => {
         listing.filterByCategory()
         listing.filterByLocation()
         listing.searchFilterButton()
-
+        
 
     })
 
