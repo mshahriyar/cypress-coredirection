@@ -45,6 +45,11 @@ describe('Listing Page', () => {
         listing.filterByLocation()
         listing.searchFilterButton()
         
+    })
+    it.only('Add any facility to Favorite', () => {
+      
+        listing.favorite()   
+      //  listing.unfavorite()
 
     })
 

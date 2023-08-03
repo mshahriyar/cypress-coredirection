@@ -33,7 +33,7 @@ Cypress.Commands.add('login', (username, password)=>{
         cy.get('#signInPassword').clear().type(password) 
         cy.get(':nth-child(3) > .btn-submit').click()
         cy.wait(3000)
-        cy.get('.btn-warable-action').click()
+        //cy.get('.btn-warable-action').click()
     })
 
     //When you want to use your session across all specs then use this below statment

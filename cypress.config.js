@@ -5,7 +5,7 @@ const { defineConfig } = require("cypress");
 module.exports = defineConfig({
   projectId: "5j8y6r",
   e2e: {
-    baseUrl: 'https://stage-v3-1-0-1.coredirection.com/',
+   // baseUrl: 'https://stage-v3-1-0-1.coredirection.com/',
     viewportWidth: 1024,
     viewportHeight: 786,
     pageLoadTimeout: 50000,
